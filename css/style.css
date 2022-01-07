@@ -64,7 +64,7 @@ body {
 
 .bg-img-custom {
 
-    background-image: url(/img/hero-img.jpg);
+    background-image: url(img/hero-img.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -155,22 +155,22 @@ body {
 
 .bg-amirica {
 
-    background-image: url(/img/Amirica.jpg);
+    background-image: url(img/Amirica.jpg);
 
 }
 
 .bg-london {
 
-    background-image: url(/img/London.jpg);
+    background-image: url(img/London.jpg);
 }
 
 .bg-spain {
-    background-image: url(/img/spain.jpg);
+    background-image: url(img/spain.jpg);
 }
 
 .bg-france {
 
-    background-image: url(/img/France.png);
+    background-image: url(img/France.png);
 }
 
 
@@ -253,7 +253,7 @@ body {
 .bottom-banner {
     height: 482px;
     margin-top: 120px;
-    background-image: url(/img/bottom-banner/bg.png);
+    background-image: url(img/bottom-banner/bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
