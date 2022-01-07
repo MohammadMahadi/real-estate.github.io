@@ -1,0 +1,451 @@
+/* import lato */
+/* font-family: 'Lato', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+/* import roboto */
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+
+
+/* common css */
+body {
+
+    font-family: 'Lato', 'Roboto', sans-serif;
+}
+
+
+/***************** navbar custom css******************  */
+
+.w-custom {
+    width: 182px;
+    height: 52px;
+    margin-right: 25%;
+}
+
+.nav-link {
+
+    margin-right: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.btn-nav {
+
+    padding: 5px 30px;
+    border-radius: 10px;
+    color: #1DAEFF;
+    border: solid 1.5px #1DAEFF;
+
+}
+
+.btn-nav:hover {
+
+    background-color: #1DAEFF;
+    border: solid 1.5px #1DAEFF;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+
+    color: #1DAEFF;
+
+}
+
+
+/******************* hero section****************** */
+
+.hero {
+    width: 100vw;
+
+
+}
+
+.bg-img-custom {
+
+    background-image: url(/img/hero-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 10px;
+    border-radius: 50px;
+
+}
+
+.hero .container {
+
+
+    padding: 92px 30px 0px;
+    width: 1300px;
+    height: 633.76px;
+    border-radius: 35px;
+
+
+}
+
+.hero .container h1 {
+
+    color: #110229;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 73px;
+    margin-bottom: 26px;
+}
+
+.hero .container p {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 26px;
+    margin-bottom: 60px;
+}
+
+.hero .container img {
+
+    margin-left: -39px;
+}
+
+/***********************section 2 css start heare************************/
+
+.section-2 h1 {
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 50px;
+    align-items: center;
+    text-align: center;
+    color: #110229;
+    margin: 100px 0px 30px;
+
+}
+
+.section-2 p {
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #110229;
+    margin-top: 48px;
+
+}
+
+
+.for-bg {
+    height: 426px;
+    border-radius: 30px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding:7px; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
+
+.bg-amirica {
+
+    background-image: url(/img/Amirica.jpg);
+
+}
+
+.bg-london {
+
+    background-image: url(/img/London.jpg);
+}
+
+.bg-spain {
+    background-image: url(/img/spain.jpg);
+}
+
+.bg-france {
+
+    background-image: url(/img/France.png);
+}
+
+
+
+/* section Recently-Aded css start heare */
+
+.section-title {
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 50px;
+    color: #110229;
+    margin-left: 25px;
+}
+
+.see-all {
+    text-align: right;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #1DAEFF;
+}
+
+/* blog card css */
+
+.blog-card {
+    padding: 32px;
+    margin: 35px 0px 0px 10px;
+    height: 249px;
+    background: #FFFFFF;
+    border-radius: 50px;
+
+}
+
+.card-title {
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 37px;
+    margin-left: 10px;
+    color: #110229;
+}
+
+.card-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 25px;
+    margin-left: 0px;
+    color: #8F90A6;
+    ;
+}
+
+
+.card-row2-m {
+
+    margin: 18px 0px 38px 0px;
+
+}
+
+.card-row3-m {
+
+    margin: 0px;
+
+}
+
+.btn-card {
+
+    margin: -5px;
+    padding: 6px 16px;
+    border-radius: 10px;
+    background-color: #8F90A6;
+}
+
+/* bottom banner css start********************************/
+
+.bottom-banner {
+    height: 482px;
+    margin-top: 120px;
+    background-image: url(/img/bottom-banner/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 85px 0px 0px 85px;
+    border-radius: 50px;
+}
+
+.bt-banner-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+
+    color: #110229;
+
+
+}
+
+.bt-banner-text {
+    font-family: Lufga;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    /* or 164% */
+
+
+    color: #585981;
+}
+
+.bt-banner-btn {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    /* identical to box height, or 225% */
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 8px 21px;
+    margin-top: 37px;
+    background: #1DAEFF;
+    border-radius: 14px;
+}
+
+/***********************footer css heare*******************/
+
+.footer {
+
+    margin-top: 97px;
+    margin-bottom: 110px;
+
+}
+
+.footer .col h1 {
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    color: #110229;
+}
+
+.footer .col p {
+    font-family: Lufga;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 31px;
+    /* or 221% */
+    color: #8F90A6;
+    margin-top: 27px;
+
+}
+
+.ft-link {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 52px;
+    /* or 289% */
+    color: #110229;
+    text-decoration: none;
+    display: block;
+
+}
+
+/*********************social medi css****************/
+
+.icon-socail li {
+
+    color: red;
+    margin-right: 28px;
+    font-size: 22px;
+}
+
+.fa-facebook {
+
+    color: #1877F2;
+
+}
+
+.fa-twitter {
+
+    color: #1DA1F2;
+
+}
+
+.fa-instagram {
+
+    color: #EC3397;
+
+}
+
+.fa-linkedin {
+
+    color: #0374B5;
+
+}
+
+/* copy right */
+
+.cp-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    color: #8F90A6;
+    text-decoration: none;
+}
+
+.icon-socail {
+
+    margin: 34px 0px;
+}
+
+.subscribe {
+
+
+    background: #FFFFFF;
+    border: 2px solid #D0D0E3;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.subscribe:hover {
+    border: 2px solid #0B5ED7;
+}
+
+#emailbar {
+    border: none;
+}
+
+#emailbar:focus {
+    outline: none;
+}
+
+.btn-subscribe {
+
+    border-radius: 30px;
+    margin-left: 23px;
+}
+
+/* for moble css start here */
+
+.mobile-tamplate{
+    
+    display: none;
+}
+
+.card{
+    margin: auto;
+    width: 80vw;
+}
+
+
+
+
+@media screen and (max-width: 1199px) {
+    .d-non-sr {
+      display: none;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .mobile-tamplate{
+       
+        display: block;
+    }
+  };
+
+
